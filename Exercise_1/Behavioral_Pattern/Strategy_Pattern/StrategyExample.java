@@ -1,4 +1,4 @@
-package Exercise_1.Behavioral_Pattern;
+package Exercise_1.Behavioral_Pattern.Strategy_Pattern;
 
 import java.util.*;
 
@@ -26,17 +26,15 @@ class CashPayment implements PaymentStrategy {
 
 class PaymentContext {
     private PaymentStrategy strategy;
-
     public PaymentContext(PaymentStrategy strategy) {
         this.strategy = strategy;
     }
-
     public void payBill(int amount) {
         strategy.pay(amount);
     }
 }
 
-public class PaymentStrategyExample {
+public class StrategyExample {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

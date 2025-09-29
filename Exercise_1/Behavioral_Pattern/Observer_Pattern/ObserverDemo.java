@@ -1,4 +1,4 @@
-package Exercise_1.Behavioral_Pattern;
+package Exercise_1.Behavioral_Pattern.Observer_Pattern;
 
 import java.util.*;
 
@@ -31,21 +31,23 @@ interface Observer {
 // Concrete Observers
 class MobileApp implements Observer {
     public void update(int temp) {
-        System.out.println("Mobile App: Temperature updated to " + temp + "°C");
+        System.out.println("📱 Mobile App: Temperature updated to " + temp + "°C");
     }
 }
 
 class LEDDisplay implements Observer {
     public void update(int temp) {
-        System.out.println("LED Display: Temperature is now " + temp + "°C");
+        System.out.println("💡 LED Display: Temperature is now " + temp + "°C");
     }
 }
 
-// Main class
-public class WeatherStationExample {
+// Main
+public class ObserverDemo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         WeatherStation station = new WeatherStation();
+
+        // Add observers
         station.addObserver(new MobileApp());
         station.addObserver(new LEDDisplay());
 
@@ -53,11 +55,11 @@ public class WeatherStationExample {
 
         while (true) {
             int temp = sc.nextInt();
-            if (temp == -1) break;   // stop condition
+            if (temp == -1) break; // stop input
             station.setTemperature(temp);
         }
 
-        sc.close();
         System.out.println("Weather monitoring stopped.");
+        sc.close();
     }
 }
