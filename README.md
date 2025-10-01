@@ -1,52 +1,10 @@
 # Smart-Office-Facility-
 This is a project about SmartOffice Facility System.
 # Exercise 1 - Problem Statement on Design patterns
+This exercise contains use cases to demonstrate six common design patterns.
 
 ## Project Structure
-Exercise_1
-|-- Observer_Pattern/
-|   |-- WeatherStation.java
-|   |-- Observer.java
-|   |-- MobileApp.java
-|   |-- LEDDisplay.java
-|   `-- ObserverDemo.java
-|
-|-- Strategy_Pattern/
-|   |-- PaymentStrategy.java
-|   |-- CreditCardPayment.java
-|   |-- UPIPayment.java
-|   |-- CashPayment.java
-|   |-- PaymentContext.java
-|   `-- StrategyExample.java
-|
-|-- Factory_Pattern/
-|   |-- Notification.java
-|   |-- EmailNotification.java
-|   |-- SMSNotification.java
-|   |-- PushNotification.java
-|   |-- NotificationFactory.java
-|   `-- NotificationServiceDemo.java
-|
-|-- Singleton_Pattern/
-|   |-- Logger.java
-|   `-- LoggerDemo.java
-|
-|-- Adapter_Pattern/
-|   |-- PaymentProvider.java
-|   |-- ModernPaymentGateway.java
-|   |-- PayPalGateway.java
-|   |-- PaymentGatewayAdapter.java
-|   `-- Main.java
-|
-`-- Decorator_Pattern/
-    |-- Coffee.java
-    |-- SimpleCoffee.java
-    |-- CoffeeDecorator.java
-    |-- WithMilk.java
-    |-- WithSugar.java
-    `-- DecoratorPatternDemo.java
-
-This exercise contains use cases to demonstrate six common design patterns.
+![alt text](image.png)
 
 ## Behavioural Design Patterns
 1. Observer: A weather station notifies multiple displays (observers) when the temperature changes.
@@ -68,34 +26,7 @@ This exercise contains use cases to demonstrate six common design patterns.
 This project is a console-based application designed to manage a smart office facility. It handles conference room bookings, detects room occupancy, and automates the control of air conditioning and lighting. The application is built with a strong focus on clean architecture, SOLID principles, and the strategic implementation of software design patterns to ensure a robust, maintainable, and scalable solution.
 
 ## Project Structure
-
-Exercise_2
-├── src/
-│   └── com/
-│       └── smartoffice/
-│           ├── Main.java
-│           ├── manager/
-│           │   └── FacilityManager.java
-│           ├── model/
-│           │   ├── Booking.java
-│           │   └── Room.java
-│           ├── patterns/
-│           │   ├── command/
-│           │   │   ├── BookRoomCommand.java
-│           │   │   ├── CancelBookingCommand.java
-│           │   │   ├── ICommand.java
-│           │   │   └── UpdateOccupancyCommand.java
-│           │   └── observer/
-│           │       ├── AirConditioner.java
-│           │       ├── IObserver.java
-│           │       ├── ISubject.java
-│           │       └── Lights.java
-│           ├── service/
-│           │   └── AdminService.java
-│           └── util/
-│               └── Logger.java
-│
-└── README.md
+![alt text](image-1.png)
 
 ## Architectural Design & Patterns
 The core of this application is built upon three fundamental design patterns. These patterns were chosen specifically to address the project requirements, creating a system that is decoupled, easy to understand, and simple to extend.
