@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 // Main class to demonstrate the Factory Pattern
-public class NotificationServiceDemo {
+public class NotificationMain {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         NotificationFactory factory = new NotificationFactory();

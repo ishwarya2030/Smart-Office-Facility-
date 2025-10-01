@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 // Main class to demonstrate the Strategy Pattern
-public class StrategyExample {
+public class StrategyMain {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
