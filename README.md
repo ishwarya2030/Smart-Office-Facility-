@@ -75,3 +75,23 @@ Interactive Console UI: A user-friendly, prompt-based interface for easy interac
 Immediate Input Validation: Prevents users from entering invalid data, such as non-existent room numbers, before asking for further details.
 
 Admin Panel: A password-protected view (admin123) to get a summary of all current bookings, fulfilling the user authentication requirement.
+
+# Outputs
+
+## Configuring the rooms 
+![alt text](<WhatsApp Image 2025-10-01 at 14.26.46_a2246ae5.jpg>)
+
+## Add/Update Occupants
+![alt text](<WhatsApp Image 2025-10-01 at 14.27.15_147d7d68.jpg>)
+
+## Room Booking
+![alt text](<WhatsApp Image 2025-10-01 at 14.27.48_e7cc6144.jpg>)
+ 
+## Cancel Booking
+![alt text](<WhatsApp Image 2025-10-01 at 14.28.37_3d1aa272.jpg>)
+
+## Admin side
+![alt text](<WhatsApp Image 2025-10-01 at 14.28.16_84a5c801.jpg>)
+
+## help and exit
+![alt text](<WhatsApp Image 2025-10-01 at 14.29.11_ab15b8ef.jpg>)
