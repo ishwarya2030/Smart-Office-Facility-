@@ -90,8 +90,7 @@ Admin Panel: A password-protected view (admin123) to get a summary of all curren
 ![alt text](<WhatsApp Image 2025-10-01 at 14.27.15_147d7d68.jpg>)
 
 ## Room Booking
-![alt text](<WhatsApp Image 2025-10-01 at 14.27.48_e7cc6144.jpg>)
- 
+![alt text](<WhatsApp Image 2025-10-01 at 14.27.48_e7cc6144.jpg>) 
 ## Cancel Booking
 ![alt text](<WhatsApp Image 2025-10-01 at 14.28.37_3d1aa272.jpg>)
 
