@@ -84,18 +84,19 @@ Admin Panel: A password-protected view (admin123) to get a summary of all curren
 # Outputs
 
 ## Configuring the rooms 
-![alt text](<WhatsApp Image 2025-10-01 at 14.26.46_a2246ae5.jpg>)
+![alt text](<WhatsApp Image 2025-10-01 at 14.26.46_9c23467c.jpg>)
 
 ## Add/Update Occupants
-![alt text](<WhatsApp Image 2025-10-01 at 14.27.15_147d7d68.jpg>)
+![alt text](<WhatsApp Image 2025-10-01 at 14.27.15_f80e6401.jpg>)
 
 ## Room Booking
-![alt text](<WhatsApp Image 2025-10-01 at 14.27.48_e7cc6144.jpg>) 
+![alt text](<WhatsApp Image 2025-10-01 at 14.27.48_e085e567.jpg>)
+
 ## Cancel Booking
-![alt text](<WhatsApp Image 2025-10-01 at 14.28.37_3d1aa272.jpg>)
+![alt text](<WhatsApp Image 2025-10-01 at 14.28.37_3af95c13.jpg>)
 
 ## Admin side
-![alt text](<WhatsApp Image 2025-10-01 at 14.28.16_84a5c801.jpg>)
+![alt text](<WhatsApp Image 2025-10-01 at 14.28.16_264d9f62.jpg>)
 
 ## help and exit
-![alt text](<WhatsApp Image 2025-10-01 at 14.29.11_ab15b8ef.jpg>)
+![alt text](<WhatsApp Image 2025-10-01 at 14.29.11_96c552f2.jpg>)
