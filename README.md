@@ -85,9 +85,9 @@ Admin Panel: A password-protected view (admin123) to get a summary of all curren
  1. Move to Smart-Office-Facility-\Exercise_2\src\com
  2. For compiling 
 
-### javac -d ../bin com/smartoffice/Main.java com/smartoffice/manager/FacilityManager.java com/smartoffice/model/*.java com/smartoffice/patterns/command/*.java com/smartoffice/patterns/observer/*.java com/smartoffice/service/*.java com/smartoffice/util/Logger.java
+    ### javac -d ../bin com/smartoffice/Main.java com/smartoffice/manager/FacilityManager.java com/smartoffice/model/*.java com/smartoffice/patterns/command/*.java com/smartoffice/patterns/observer/*.java com/smartoffice/service/*.java com/smartoffice/util/Logger.java
  3. To run the Project
- ### java -cp bin com.smartoffice.Main 
+    ### java -cp bin com.smartoffice.Main 
 
 # Outputs
 
